@@ -43,6 +43,21 @@ Note: Currently this is only reporting CocoaFob licenses.
 Don't forget to enable client network connections if your hosting app is sandboxed!
 Otherwise you'll just see the spinner or a white background.
 
+#### Import Package
+
+The Package URL is: https://github.com/ZeeZide/FSCheckoutSheet.git,
+can be added to your Xcode project.
+
+
+#### Demo Application
+
+The Demo folder contains a demo application for the sheet.
+Configure your store (e.g. a test store) in the `Configuration.swift` file, 
+to play with the panel.
+By default it is configured to access the live [Shrugs.app](https://shrugs.app) store,
+so careful, what you buy is what you buy :-)
+
+
 ### Who
 
 FSCheckoutSheet is brought to you by [ZeeZide](https://zeezide.de).
