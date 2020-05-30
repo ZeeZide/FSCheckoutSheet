@@ -40,6 +40,9 @@ self.presentAsSheet(vc)
 
 Note: Currently this is only reporting CocoaFob licenses.
 
+Don't forget to enable client network connections if your hosting app is sandboxed!
+Otherwise you'll just see the spinner or a white background.
+
 ### Who
 
 FSCheckoutSheet is brought to you by [ZeeZide](https://zeezide.de).

@@ -688,6 +688,22 @@
             <view key="contentView" id="EiT-Mj-1SZ">
                 <rect key="frame" x="0.0" y="0.0" width="480" height="360"/>
                 <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="ciV-1y-X5w">
+                        <rect key="frame" x="183" y="163" width="115" height="32"/>
+                        <buttonCell key="cell" type="push" title="Buy Product" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="r14-gh-VrX">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="buyProduct:" target="Voe-Tx-rLC" id="guW-2f-ybT"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="ciV-1y-X5w" firstAttribute="centerX" secondItem="EiT-Mj-1SZ" secondAttribute="centerX" id="2r8-ph-6as"/>
+                    <constraint firstItem="ciV-1y-X5w" firstAttribute="centerY" secondItem="EiT-Mj-1SZ" secondAttribute="centerY" id="vhu-h2-Xnj"/>
+                </constraints>
             </view>
             <point key="canvasLocation" x="141" y="-120"/>
         </window>
