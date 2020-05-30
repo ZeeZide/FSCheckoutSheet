@@ -59,10 +59,14 @@ so careful, what you buy is what you buy :-)
 
 Looks like this:
 
-![App Start](https://zeezide.de/img/fscheckoutsheet/demoapp-start.png)
-
-![Store Sheet](https://zeezide.de/img/fscheckoutsheet/demoapp-sheet.png)
-
+<center>
+  <img src="https://zeezide.de/img/fscheckoutsheet/demoapp-start.png"
+       style="width: 90%">
+</center>
+<center>
+  <img src="https://zeezide.de/img/fscheckoutsheet/demoapp-sheet.png"
+       style="width: 90%">
+</center>
 
 ### Who
 
