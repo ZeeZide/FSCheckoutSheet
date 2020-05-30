@@ -1,0 +1,362 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E8DCB27D24829FF600FBA82A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DCB27C24829FF600FBA82A /* AppDelegate.swift */; };
+		E8DCB27F24829FF800FBA82A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8DCB27E24829FF800FBA82A /* Assets.xcassets */; };
+		E8DCB28224829FF800FBA82A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8DCB28024829FF800FBA82A /* MainMenu.xib */; };
+		E8DCB2A02482A30A00FBA82A /* FSCheckoutSheet in Frameworks */ = {isa = PBXBuildFile; productRef = E8DCB29F2482A30A00FBA82A /* FSCheckoutSheet */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E8DCB27924829FF600FBA82A /* FastSpringCheckoutDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FastSpringCheckoutDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8DCB27C24829FF600FBA82A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E8DCB27E24829FF800FBA82A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E8DCB28124829FF800FBA82A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		E8DCB28324829FF800FBA82A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8DCB28424829FF800FBA82A /* FastSpringCheckoutDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FastSpringCheckoutDemo.entitlements; sourceTree = "<group>"; };
+		E8DCB28C2482A09700FBA82A /* FSCheckoutSheet */ = {isa = PBXFileReference; lastKnownFileType = folder; name = FSCheckoutSheet; path = ../..; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E8DCB27624829FF600FBA82A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8DCB2A02482A30A00FBA82A /* FSCheckoutSheet in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E8DCB27024829FF600FBA82A = {
+			isa = PBXGroup;
+			children = (
+				E8DCB28C2482A09700FBA82A /* FSCheckoutSheet */,
+				E8DCB27B24829FF600FBA82A /* FastSpringCheckoutDemo */,
+				E8DCB27A24829FF600FBA82A /* Products */,
+				E8DCB29E2482A30A00FBA82A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E8DCB27A24829FF600FBA82A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E8DCB27924829FF600FBA82A /* FastSpringCheckoutDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E8DCB27B24829FF600FBA82A /* FastSpringCheckoutDemo */ = {
+			isa = PBXGroup;
+			children = (
+				E8DCB27C24829FF600FBA82A /* AppDelegate.swift */,
+				E8DCB27E24829FF800FBA82A /* Assets.xcassets */,
+				E8DCB28024829FF800FBA82A /* MainMenu.xib */,
+				E8DCB28324829FF800FBA82A /* Info.plist */,
+				E8DCB28424829FF800FBA82A /* FastSpringCheckoutDemo.entitlements */,
+			);
+			path = FastSpringCheckoutDemo;
+			sourceTree = "<group>";
+		};
+		E8DCB29E2482A30A00FBA82A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E8DCB27824829FF600FBA82A /* FastSpringCheckoutDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8DCB28724829FF800FBA82A /* Build configuration list for PBXNativeTarget "FastSpringCheckoutDemo" */;
+			buildPhases = (
+				E8DCB27524829FF600FBA82A /* Sources */,
+				E8DCB27624829FF600FBA82A /* Frameworks */,
+				E8DCB27724829FF600FBA82A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E8DCB29D2482A30700FBA82A /* PBXTargetDependency */,
+			);
+			name = FastSpringCheckoutDemo;
+			packageProductDependencies = (
+				E8DCB29F2482A30A00FBA82A /* FSCheckoutSheet */,
+			);
+			productName = FastSpringCheckoutDemo;
+			productReference = E8DCB27924829FF600FBA82A /* FastSpringCheckoutDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E8DCB27124829FF600FBA82A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "ZeeZide GmbH";
+				TargetAttributes = {
+					E8DCB27824829FF600FBA82A = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = E8DCB27424829FF600FBA82A /* Build configuration list for PBXProject "FastSpringCheckoutDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E8DCB27024829FF600FBA82A;
+			productRefGroup = E8DCB27A24829FF600FBA82A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E8DCB27824829FF600FBA82A /* FastSpringCheckoutDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E8DCB27724829FF600FBA82A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8DCB27F24829FF800FBA82A /* Assets.xcassets in Resources */,
+				E8DCB28224829FF800FBA82A /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E8DCB27524829FF600FBA82A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8DCB27D24829FF600FBA82A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E8DCB29D2482A30700FBA82A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = E8DCB29C2482A30700FBA82A /* FSCheckoutSheet */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E8DCB28024829FF800FBA82A /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8DCB28124829FF800FBA82A /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E8DCB28524829FF800FBA82A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E8DCB28624829FF800FBA82A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		E8DCB28824829FF800FBA82A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FastSpringCheckoutDemo/FastSpringCheckoutDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4GXF3JAMM4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = FastSpringCheckoutDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = de.zeezide.swift.chat.FastSpringCheckoutDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E8DCB28924829FF800FBA82A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FastSpringCheckoutDemo/FastSpringCheckoutDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4GXF3JAMM4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = FastSpringCheckoutDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = de.zeezide.swift.chat.FastSpringCheckoutDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E8DCB27424829FF600FBA82A /* Build configuration list for PBXProject "FastSpringCheckoutDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8DCB28524829FF800FBA82A /* Debug */,
+				E8DCB28624829FF800FBA82A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8DCB28724829FF800FBA82A /* Build configuration list for PBXNativeTarget "FastSpringCheckoutDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8DCB28824829FF800FBA82A /* Debug */,
+				E8DCB28924829FF800FBA82A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E8DCB29C2482A30700FBA82A /* FSCheckoutSheet */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FSCheckoutSheet;
+		};
+		E8DCB29F2482A30A00FBA82A /* FSCheckoutSheet */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FSCheckoutSheet;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = E8DCB27124829FF600FBA82A /* Project object */;
+}
