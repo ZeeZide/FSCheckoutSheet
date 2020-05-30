@@ -60,12 +60,10 @@ so careful, what you buy is what you buy :-)
 Looks like this:
 
 <center>
-  <img src="https://zeezide.de/img/fscheckoutsheet/demoapp-start.png"
-       style="width: 90%">
+  <img src="https://zeezide.de/img/fscheckoutsheet/demoapp-start-sized.png">
 </center>
 <center>
-  <img src="https://zeezide.de/img/fscheckoutsheet/demoapp-sheet.png"
-       style="width: 90%">
+  <img src="https://zeezide.de/img/fscheckoutsheet/demoapp-sheet-sized.png">
 </center>
 
 ### Who
