@@ -57,6 +57,12 @@ to play with the panel.
 By default it is configured to access the live [Shrugs.app](https://shrugs.app) store,
 so careful, what you buy is what you buy :-)
 
+Looks like this:
+
+![App Start](https://zeezide.de/img/fscheckoutsheet/demoapp-start.png)
+
+![Store Sheet](https://zeezide.de/img/fscheckoutsheet/demoapp-sheet.png)
+
 
 ### Who
 
